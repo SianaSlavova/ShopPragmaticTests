@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fab14182-96b9-4f0d-99c0-21e035a108e5" name="Changes" comment="" />
+    <list default="true" id="fab14182-96b9-4f0d-99c0-21e035a108e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/BaseTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,23 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SianaSlavova"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5edf32b5-c830-4521-b1ff-d79da5fe1051" />
+        <option name="url" value="https://github.com/SianaSlavova/ShopPragmaticTests.git" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="ProjectColorInfo">{
@@ -29,9 +49,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.ManufacturersPageTest.editManufacturer.executor": "Run",
     "TestNG.ManufacturersPageTest.executor": "Run",
     "TestNG.ManufacturersPageTest.testAddNewManufacturer.executor": "Run",
+    "git-widget-placeholder": "test",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Ivailo/Desktop/Exam/PageObjectStaticDemo/src/main/java/pages/admin"
   }
@@ -160,5 +182,28 @@
       <updated>1713896061247</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="test" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
