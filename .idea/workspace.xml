@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab14182-96b9-4f0d-99c0-21e035a108e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/base/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/frontend/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/frontend/RegisterPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pages/frontend/RegisterPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/tests/frontend/RegisterPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/admin/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/admin/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/admin/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/admin/DashboardPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +29,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SianaSlavova"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SianaSlavova&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -49,11 +55,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.ManufacturersPageTest.editManufacturer.executor": "Run",
     "TestNG.ManufacturersPageTest.executor": "Run",
     "TestNG.ManufacturersPageTest.testAddNewManufacturer.executor": "Run",
-    "git-widget-placeholder": "test",
+    "TestNG.RegisterPageTest.testRegistrationPage.executor": "Run",
+    "git-widget-placeholder": "Rebasing create-new-user-flow",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Ivailo/Desktop/Exam/PageObjectStaticDemo/src/main/java/pages/admin"
   }
@@ -66,7 +72,7 @@
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ManufacturersPageTest">
+  <component name="RunManager" selected="TestNG.RegisterPageTest.testRegistrationPage">
     <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PageObjectStaticDemo" />
       <extension name="coverage">
@@ -78,24 +84,6 @@
       <option name="PACKAGE_NAME" value="tests.admin" />
       <option name="MAIN_CLASS_NAME" value="tests.admin.LoginPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTest.testSuccessfulLogin1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PageObjectStaticDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.admin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.admin" />
-      <option name="MAIN_CLASS_NAME" value="tests.admin.LoginPageTest" />
-      <option name="METHOD_NAME" value="testSuccessfulLogin1" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -155,13 +143,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegisterPageTest.testRegistrationPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PageObjectStaticDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.frontend" />
+      <option name="MAIN_CLASS_NAME" value="tests.frontend.RegisterPageTest" />
+      <option name="METHOD_NAME" value="testRegistrationPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegisterPageTest.testRegistrationPage" />
         <item itemvalue="TestNG.ManufacturersPageTest" />
         <item itemvalue="TestNG.ManufacturersPageTest.editManufacturer" />
         <item itemvalue="TestNG.ManufacturersPageTest.testAddNewManufacturer" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.LoginPageTest.testSuccessfulLogin1" />
       </list>
     </recent_temporary>
   </component>
